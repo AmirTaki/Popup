@@ -1,7 +1,9 @@
 let popup = document.getElementById("popup")
-// document.getElementById("")
-// document.getElementById("")
 
 const openPopup = () =>{
+    popup.classList.add('open-popup')
+}
 
+const closePopup =() => {
+    popup.classList.remove('open-popup')
 }
